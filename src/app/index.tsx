@@ -1,7 +1,7 @@
 import { Redirect } from "expo-router";
 
 const HomeScreen = () => {
-  return <Redirect href={"/(home)/(tabsScreen)"} />;
+  return <Redirect href={"/(auth)/login"} />;
 };
 
 export default HomeScreen;
